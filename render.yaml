@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: smsbomber
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 bot.py
+    plan: free
+    envVars:
+      - key: TOKEN
+        sync: false
