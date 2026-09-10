@@ -32,7 +32,7 @@ async def on_ready():
     print(f"Yüklü servis sayısı: {len(servisler_sms)}")
     await bot.change_presence(activity=discord.Activity(
         type=discord.ActivityType.playing,
-        name="https://gitlab.com/tingirifistik/enough/"
+        name="*help yaz"
     ))
 
 
