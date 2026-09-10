@@ -62,7 +62,7 @@ async def on_ready():
 @bot.command(name="help")
 async def help_cmd(ctx):
     embed = discord.Embed(
-        title="Enough SMS Bot — Komutlar",
+        title="SNS  — Komutlar",
         description=(
             "`*sms <numara>` → Normal mod, 52 SMS\n"
             "`*turbo <numara>` → Turbo mod (tüm servisler paralel)\n"
